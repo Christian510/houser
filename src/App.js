@@ -3,7 +3,6 @@ import './App.css';
 import Dashboard from './components/Dashboard/dashboard.js';
 import Wizard from './components/Wizard/wizard.js';
 import Header from './components/Header/header.js';
-import House from './components/House/house.js';
 
 
 class App extends Component {
@@ -16,9 +15,8 @@ class App extends Component {
           </p>
         </header>
         < Dashboard />
-        < Wizard />
         < Header />
-        < House />
+        < Wizard />
       </div>
     );
   }

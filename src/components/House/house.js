@@ -1,13 +1,15 @@
 import React from 'react';
 
 
-export default function House() {
+export default function House(props) {
     return (
         <div>
             <h1>House</h1>
+            <div>
+            { props.children }
+        </div>
         </div>
     );
 }
 
-const element = < House />
 
