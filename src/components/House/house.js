@@ -3,11 +3,13 @@ import React from 'react';
 
 export default function House(props) {
     return (
-        <div>
-            <h1>House</h1>
+        <div className="App">
+            <header className="App-header">
+                <h1>House</h1>
+            </header>
             <div>
-            { props.children }
-        </div>
+                {props.children}
+            </div>
         </div>
     );
 }

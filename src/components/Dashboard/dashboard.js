@@ -6,12 +6,15 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 export default class Dashboard extends Component {
     render() {
         return (
-            <div>
-                <h1>Dashboard</h1>
-                {/* <Switch>
-                    <Route exact path="/" component={House} />
-                </Switch> */}
+            <div className="App" >
+            <header className="App-header" >
+                <div>
+                    <h1>Dashboard</h1>
+                </div>
+            </header>
+                < House />
             </div>
+
         );
     }
 }

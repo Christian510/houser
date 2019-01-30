@@ -14,9 +14,9 @@ class App extends Component {
             Let's get this show started!!!!!
           </p>
         </header>
-        < Dashboard />
+        {/* < Dashboard />
         < Header />
-        < Wizard />
+        < Wizard /> */}
       </div>
     );
   }

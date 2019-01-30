@@ -9,19 +9,17 @@ import Header from './components/Header/header.js';
 import House from './components/House/house.js';
 import Wizard from './components/Wizard/wizard.js';
 
-
-
 ReactDOM.render(
     <Router>
         <Switch>
         < Route exact path="/" component={App} />
-        < Route path="/dashboard.js" render={ ()=> (
+        < Route path="/dashboard" render={ ()=> (
             < Dashboard >
-                <Route path="/house.js" component={House} />
+                <Route path="/house" component={House} />
             </Dashboard>
         )} />
-        < Route path="/header.js" component={Header} />
-        < Route path="/wizard.js" component={Wizard} />
+        < Route path="/header" component={Header} />
+        < Route path="/wizard" component={Wizard} />
         </Switch>
     </Router>,
      document.getElementById('root'));
