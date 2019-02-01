@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Wizard extends Component {
+class Wizard extends Component {
     render() {
         return (
             <header className="App">
@@ -11,3 +11,5 @@ export default class Wizard extends Component {
         );
     }
 }
+
+export default Wizard;
