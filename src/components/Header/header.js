@@ -1,20 +1,23 @@
 import React from 'react';
-import houserLogo from './Desktop/devmtn/webDev-1/simulation-2-houser/houser/assets/houser_logo.png';
+import houserLogo from '../../assets/houser_logo.png';
 // console.log(houserLogo);
 
-export default function Header() {
+function Header() {
     return (
         <header className="App-header">
             <div className="inner-header" >
-                <div >
+            <div id="inner-wrapper">
+            <div className="App-logo" >
                     <img id="logo" src={houserLogo} alt="Logo" />
                 </div>
-                <div>
+                <div className="App-title">
                     <h1>Houser</h1>
                 </div>
+            </div>
 
             </div>
 
         </header>
     );
 }
+export default Header;

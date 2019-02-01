@@ -4,7 +4,6 @@ import Dashboard from './components/Dashboard/dashboard.js';
 // import Wizard from './components/Wizard/wizard.js';
 import Header from './components/Header/header';
 
-
 class App extends Component {
   render() {
     return (

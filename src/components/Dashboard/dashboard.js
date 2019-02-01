@@ -3,23 +3,24 @@ import React, { Component } from 'react';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 
-export default class Dashboard extends Component {
+class Dashboard extends Component {
     render() {
         return (
-            <div className="dashboard" >
+            <div className="content-wrapper">
+                <div className="dashboard" >
                 <header id="dashboard-header">
                     <div id="dash-title">
                         <h1>Dashboard</h1>
                     </div>
-                    <div id="add-property">
-                        <button onclick="">Add New Property</button>
+                    <div id="add-prop-botton">
+                        <button onclick="AddNewProp()">Add New Property</button>
                     </div>
                 </header>
-                    
-                
             </div>
+            </div>
+            
 
         );
     }
 }
-
+export default Dashboard;
