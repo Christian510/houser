@@ -15,7 +15,7 @@ ReactDOM.render(
         < Route exact path="/" component={App} />
         < Route path="/dashboard" render={ ()=> (
             < Dashboard >
-                <Route path="/house" component={House} />
+                <Route path="/house" component= {House()} />
             </Dashboard>
         )} />
         < Route path="/header" component={Header} />

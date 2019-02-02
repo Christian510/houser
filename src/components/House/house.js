@@ -1,17 +1,13 @@
 import React from 'react';
 
 
-export default function House(props) {
+function House() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <h1>House</h1>
-            </header>
-            <div>
-                {props.children}
+        <div className="house-container">
+            <div className="house-content">
+            <h1>House</h1>
             </div>
         </div>
     );
 }
-
-
+export default House;
